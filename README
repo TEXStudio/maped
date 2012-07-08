@@ -1,0 +1,14 @@
+Maped
+-----
+Map editor for XS3k
+
+Notes
+-----
+Maped is written for the MS Windows platform.
+The binary data is compressed and placed under the bin directory 
+(data.tar.gz). In order to use the program, you need to uncompress
+the data file and place the contents in same directory as the executable.
+
+Dependencies
+------------
+ * gxbase [ http://divillysausages.com/gxbase ]
