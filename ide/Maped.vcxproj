@@ -40,8 +40,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>../../3rdparty/inc/gxbase/;$(IncludePath)</IncludePath>
-    <LibraryPath>../../3rdparty/lib/gxbase/;$(LibraryPath)</LibraryPath>
+    <IncludePath>../dep/inc/gxbase/;$(IncludePath)</IncludePath>
+    <LibraryPath>../dep/lib/gxbase/;$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)\..\bin\</OutDir>
     <IntDir>$(SolutionDir)\..\bin\$(Configuration)\</IntDir>
     <TargetName>$(ProjectName)_d</TargetName>
@@ -49,8 +49,8 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)\..\bin\</OutDir>
-    <IncludePath>../../3rdparty/inc/gxbase/;$(IncludePath)</IncludePath>
-    <LibraryPath>../../3rdparty/lib/gxbase/;$(LibraryPath)</LibraryPath>
+    <IncludePath>../dep/inc/gxbase/;$(IncludePath)</IncludePath>
+    <LibraryPath>../dep/lib/gxbase/;$(LibraryPath)</LibraryPath>
     <IntDir>$(SolutionDir)\..\bin\$(Configuration)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">

@@ -1,13 +1,22 @@
 Maped
 -----
-Map editor for XS3k
+Map editor for XS3K
 
-Notes
+About
 -----
-Maped is written for the MS Windows platform.
-The binary data is compressed and placed under the bin directory 
+Maped was developed as an in-house tool to ease level design in xs3k.
+A manual with instructions on how to use the program is available in the
+doc directory. Note that this tool was hacked together in short time to 
+serve a specific purpose. The code is no longer maintained.
+
+The program data files are compressed and placed under the bin directory
 (data.tar.gz). In order to use the program, you need to uncompress
-the data file and place the contents in same directory as the executable.
+the data tarball and place the contents under the same directory as the 
+executable.
+
+Supported Platforms
+-------------------
+ * MS Windows
 
 Dependencies
 ------------
